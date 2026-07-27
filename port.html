@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #add8e6;
+      color: #333;
+    }
+
+    header {
+      background: #000000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .links{
+        float: left;
+    }
+
+    .about-me {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+.about-me p {
+    margin: 0;
+    text-align: center;
+}
+
+    header h2 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #111;
+    }
+
+    .projects {
+      display: grid;
+      gap: 5px;
+    }
+
+    .project {
+      padding: 15px;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      background: #d3d3d3;
+    }
+
+
+    .project h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+      text-align: left;
+    }
+
+    .project-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .project-info p {
+      margin: 0;
+      color: #000000;
+      text-align: left;
+
+    }
+
+    .project-info video {
+      max-width: 320px;
+      padding-right: 10px;
+      align-items: center;
+      float: left;
+    }
+
+    footer {
+      text-align: center;
+      padding: 16px 20px; 
+      color: #777;
+      font-size: 0.95rem;
+    }
+
+  </style>
+
+</head>
+
+
+
+
+
+<body>
+
+
+  <header>
+    <!--<p>
+    <a href="https://www.linkedin.com/in/dylan-bundy-9a1b73300/" class="links">
+    <img src="Images/linkedin_logo_icon_147268.png" width="100" height="100">
+    </a>
+    </p>-->
+    <h1>Dylan Bundy</h1>
+    <h2>Graduate Game Programmer</h2>
+
+  </header>
+
+
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <div class="about-me">
+        <img src="Images/1718246103595.png" width="200" height="200">
+
+
+      <p>This portfolio showcases the projects I have made within both Unity and Unreal Engine. These projects have been developed during my time at Edge Hill University, where I studied Games Programming. The prototypes displayed within this portfolio demonstate the skills and knowledge I have gained throughout my studies.</p>
+      </div>
+    </section>
+
+
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+
+
+        <div class="project">
+          <h3>Final Year Project - Developed in Unity</h3>
+
+
+          <div class="project-info">
+          <video width="320" height="240" controls>
+            <source src="Images/The Maze Of Despair.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <p>A first-person shooter, which focuses on the implementation of AI, to improve the players’ experience within the game. Features procedural content generation, creating a unique maze for the player to explore on each playthrough. Additionally, the game utilises behaviour trees to alter enemy interactions, dependent on the players’ actions. This game also uses an AI director, which controls the pacing of the game by altering the enemy spawn rate. This project showcases my ability to create adaptive game systems that respond to player behaviour, aiming to increase both replayability and engagement.</p>
+        
+        </div>  
+        </div>
+
+
+        <div class="project">
+          <h3>Parkour Simulator - Neon Trials - Developed in Unity</h3>
+
+
+          <div class="project-info">
+          <video width="320" height="240" controls>
+            <source src="Images/Neon Trials.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <p>A parkour-based time trial game where the player competes to achieve the fastest completion time for each level. Each level is generated procedurally, and with each completion the length of the level will increase, heightening the difficulty. This project showcases my ability to develop and implement procedural generation systems alongside smooth movement mechanics. Furthermore, it demonstrates my understanding and ability to create a scalable game within Unity. This prototype is controller compatible.</p>
+        
+        </div>
+        </div>
+
+
+        <div class="project">
+          <h3>Classed Based FPS - Developed in Unreal Engine</h3>
+
+
+          <div class="project-info">
+          <video width="320" height="240" controls>
+            <source src="Images/FPS.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          
+          <p>A class-based first-person shooter in which the player can select one of three different characters, each with their own attributes and playstyles. The classes available are Tank, Stealth and Assault. Each class alters the player’s movement speed, height, hitbox, weapon damage and maximum health. This project showcases my ability to deploy effective and balanced gameplay mechanics, allowing users to play the game in their own style. Additionally, this project demonstrates my versatility, being able to produce in Unreal Engine alongside Unity.</p>
+        
+        </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+    <section>
+      <h2>Contact Details</h2>
+      <p>Email: Dylan.Bundy@outlook.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/dylan-bundy-9a1b73300/">Dylan Bundy</a></p>
+    </section>
+  </main>
+
+
+
+
+  <footer>
+
+
+
+  </footer>
+
+
+
+</body>
+</html>
