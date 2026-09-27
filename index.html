@@ -16,7 +16,7 @@
     header {
       background: #000000;
       color: #fff;
-      padding: 40px 20px;
+      padding: 20px 20px;
       text-align: center;
     }
 
@@ -47,9 +47,11 @@
     }
 
     main {
+      width: 75%;
       max-width: 1000px;
       margin: 30px auto;
       padding: 0 20px;
+      box-sizing: border-box;
     }
 
     section {
@@ -67,7 +69,7 @@
 
     .projects {
       display: grid;
-      gap: 5px;
+      gap: 20px;
     }
 
     .project {
@@ -87,21 +89,21 @@
     .project-info {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
     }
 
     .project-info p {
       margin: 0;
       color: #000000;
       text-align: left;
+      flex:1;
 
     }
 
     .project-info video {
-      max-width: 320px;
-      padding-right: 10px;
-      align-items: center;
-      float: left;
+      width: 320px;
+      max-width: 100%;
+      height: auto;
     }
 
     footer {
@@ -111,10 +113,38 @@
       font-size: 0.95rem;
     }
 
+  @media (max-width: 1000px) {
+
+  main {
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px auto;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .project-info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-info video {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    order: -1;
+  }
+
+  .project-info p {
+    text-align: left;
+  }
+}
+
   </style>
 
 </head>
-
 
 
 
@@ -123,14 +153,8 @@
 
 
   <header>
-    <!--<p>
-    <a href="https://www.linkedin.com/in/dylan-bundy-9a1b73300/" class="links">
-    <img src="Images/linkedin_logo_icon_147268.png" width="100" height="100">
-    </a>
-    </p>-->
     <h1>Dylan Bundy</h1>
     <h2>Graduate Game Programmer</h2>
-
   </header>
 
 
@@ -221,7 +245,6 @@
 
 
   </footer>
-
 
 
 </body>
